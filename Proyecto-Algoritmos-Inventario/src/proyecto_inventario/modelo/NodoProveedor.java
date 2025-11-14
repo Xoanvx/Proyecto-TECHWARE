@@ -9,5 +9,15 @@ package proyecto_inventario.modelo;
  * @author JuanVic
  */
 public class NodoProveedor {
+    // dato q guarda
+    public Proveedor dato;
     
+    // enlace al siguiente nodo
+    public NodoProveedor siguiente;
+
+    // cosntructor
+    public NodoProveedor(Proveedor dato) {
+        this.dato = dato;
+        this.siguiente = null;
+    }
 }
